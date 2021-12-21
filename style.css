@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Sassy+Frass&family=Shizuru&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+main{
+    min-height: 100vh;
+    background: linear-gradient(to right top,#F6F207 ,#F3F056  );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.glass{
+    margin:20px;
+    background: white;
+    max-height: 20%;
+    max-width: 90%;
+    background: linear-gradient(to right bottom,rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+    border-radius: 2rem;
+    z-index: 1;
+    backdrop-filter: blur(2rem);
+    display: flex;
+}
+
+.image{
+    
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+}
+.dashboard{
+    flex:0.5;
+    display: flex;
+    flex-direction: ;
+    align-items: center;
+    justify-content: space-evenly;
+    background: linear-gradient(to right bottom,rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+    border-radius: 2rem;
+    font-family: 'Abril Fatface', cursive;
+}
+.about{
+    min-width: 80%;
+    
+    flex:2;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-evenly;
+    font-family: 'Abril Fatface', cursive;
+    text-align: left;
+    padding:10%;
+    justify-content: space-evenly;
+}
+.image2{
+    
+    height:70px;
+    width:70px;
+    border-radius: 50%;
+
+}
+.image3{
+    height:53px;
+    width:53px;
+    border-radius: 50%;
+
+}
+.contact{
+    margin-top: 2%;
+    padding:20px;
+   
+    display: flex;
+    background: linear-gradient(to right bottom,rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+    border-radius: 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+.about1{
+    margin-top: 2%;
+    padding:50px;
+    display: flex;
+    background: linear-gradient(to right bottom,rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+    border-radius: 2rem;
+    flex-direction: row;
+    align-items: left;
+    justify-content: space-evenly;
+    
+}
+.about2{
+    margin-top: 2%;
+    padding:50px;
+    display: flex;
+    background: linear-gradient(to right bottom,rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+    border-radius: 2rem;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-evenly;
+    
+}
+.heading{
+    font-family: 'Abril Fatface', cursive;
+}
